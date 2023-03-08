@@ -6,6 +6,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int opcao;
         int num1, num2, num3;
+        double numd1;
         System.out.println("Hello world!");
 
         System.out.println("Selecione a tarefa: ");
@@ -32,6 +33,15 @@ public class Main {
                 System.out.println("Digite um numero inteiro");
                 num1 = sc.nextInt();
                 PositiveNegativeZero.checkNumber(num1);
+            case 2:
+                System.out.println("Digite um numero inteiro");
+                numd1 = sc.nextDouble();
+                SpeedConverter.printConversion(numd1);
+            case 3:
+                System.out.println("Digite um numero inteiro");
+                num1 = sc.nextInt();
+                MegaBytesConverter.printMegaBytesAndKiloBytes(num1);
+            case 4:
         }
 
 
