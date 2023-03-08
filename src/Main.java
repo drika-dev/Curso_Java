@@ -13,5 +13,6 @@ public class Main {
         System.out.println(" 6 - Decimal Comparator");
         System.out.println(" 7 - Equal Sum Checker");
         System.out.println(" 8 - Teen Number Checker");
+        System.out.println(" 9 - Area Calculator");
     }
 }
