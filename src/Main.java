@@ -1,7 +1,11 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-
+        Scanner sc = new Scanner(System.in);
+        int opcao;
+        int num1, num2, num3;
         System.out.println("Hello world!");
 
         System.out.println("Selecione a tarefa: ");
@@ -14,5 +18,22 @@ public class Main {
         System.out.println(" 7 - Equal Sum Checker");
         System.out.println(" 8 - Teen Number Checker");
         System.out.println(" 9 - Area Calculator");
+        System.out.println(" 10 - Minutes to Years and Days Calculator");
+        System.out.println(" 11 - Equality Printer");
+        System.out.println(" 12 - Playing Cat");
+        System.out.println(" 13 - Number in Word");
+        System.out.println(" 14 - Number of Days in Month");
+        System.out.println(" 15 - Sum Odd");
+        opcao = sc.nextInt();
+
+        switch (opcao){
+
+            case 1:
+                System.out.println("Digite um numero inteiro");
+                num1 = sc.nextInt();
+                PositiveNegativeZero.checkNumber(num1);
+        }
+
+
     }
 }
