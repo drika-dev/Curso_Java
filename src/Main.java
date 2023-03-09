@@ -25,6 +25,12 @@ public class Main {
         System.out.println(" 13 - Number in Word");
         System.out.println(" 14 - Number of Days in Month");
         System.out.println(" 15 - Sum Odd");
+        System.out.println(" 16 - Number Palindrome");
+        System.out.println(" 17 - First And Last Digit Sum");
+        System.out.println(" 18 - Event Digit Sum");
+        System.out.println(" 19 - Shared Digit");
+        System.out.println(" 20 - Last Digit Checker");
+        System.out.println(" 21 - All Factors");
         opcao = sc.nextInt();
 
         switch (opcao){
