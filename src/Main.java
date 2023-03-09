@@ -31,6 +31,22 @@ public class Main {
         System.out.println(" 19 - Shared Digit");
         System.out.println(" 20 - Last Digit Checker");
         System.out.println(" 21 - All Factors");
+        System.out.println(" 22 - Greatest Common Divisor");
+        System.out.println(" 23 - Perfect Number");
+        System.out.println(" 24 - Number To Words");
+        System.out.println(" 25 - Flour Pack Problem");
+        System.out.println(" 26 - Largest Prime");
+        System.out.println(" 27 - Diagonal Star");
+        System.out.println(" 28 - Input Calculator");
+        System.out.println(" 29 - Paint Job");
+        System.out.println(" 30 - Sum Calculator");
+        System.out.println(" 31 - Person");
+        System.out.println(" 32 - Wall Area");
+        System.out.println(" 33 - Point");
+        System.out.println(" 34 - Carpet Cost Calculator");
+        System.out.println(" 35 - Complex Operations");
+        System.out.println(" 36 - Cylinder");
+        System.out.println(" 37 - Pool Area");
         opcao = sc.nextInt();
 
         switch (opcao){
